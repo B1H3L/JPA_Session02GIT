@@ -27,16 +27,11 @@ public class pruebas {
 		if(u==null){
 			System.out.println("El usuario no existe");}
 		else{
-			System.out.println("Bienvenido:"+u.getNomUsua());
+			System.out.println("Bienvenido:"+u.getNomUsua()+" "+u.getApeUsua());
 			
 		}
 		
 		//List<TbUsuario> lstUsuario=query.getResultList();
-		/*mostar cantidad
-		System.out.println("numero de usuarios: " +lstUsuario.size());
-		System.out.println("----------------------");*/
-		
-		
 		/*List<TbUsuario> tbusu= em.createQuery("select a from TbUsuario a", TbUsuario.class).getResultList();
 		System.out.println("----------------------");*/
 
